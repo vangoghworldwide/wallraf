@@ -1,0 +1,2333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lido:lidoWrap xmlns:lido="http://www.lido-schema.org"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+               xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+               xmlns:edp="http://www.stegmannsystems.com/2009/edp"
+               xmlns:jv="java:java.lang.Runtime"
+               xmlns:fm="http://www.foto-marburg.de"
+               xsi:schemaLocation="http://www.lido-schema.org http://www.lido-schema.org/schema/v1.0/lido-v1.0.xsd"><!--
+##############
+#
+#   OBJEKT-DOKUMENTE
+#
+##############
+            -->
+   <lido:lido><!--encodinganalog = obj--><!--encodinganalog = a5000-->
+      <lido:lidoRecID lido:type="http://terminology.lido-schema.org/lido00100"
+                      lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"
+                      lido:encodinganalog="a5000">DE-Mb112/lido/obj/05010654</lido:lidoRecID>
+      <lido:category>
+         <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099">http://cidoc-crm.org/cidoc-crm/7.1.1/E22_Human-Made_Object</lido:conceptID>
+         <lido:term xml:lang="de" lido:pref="http://terminology.lido-schema.org/lido00169">Künstlicher Gegenstand</lido:term>
+         <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00169">Human-Made Object</lido:term>
+      </lido:category>
+      <lido:descriptiveMetadata xml:lang="de">
+         <lido:objectClassificationWrap>
+            <lido:objectWorkTypeWrap><!--encodinganalog = a5230-->
+               <lido:objectWorkType lido:type="http://terminology.lido-schema.org/lido00789">
+                  <lido:term lido:encodinganalog="a5230"
+                             xml:lang="de"
+                             lido:pref="http://terminology.lido-schema.org/lido00169">Bild</lido:term>
+               </lido:objectWorkType>
+            </lido:objectWorkTypeWrap>
+            <lido:classificationWrap><!--encodinganalog = a5220-->
+               <lido:classification lido:type="http://terminology.lido-schema.org/lido00853">
+                  <lido:term lido:encodinganalog="a5220"
+                             xml:lang="de"
+                             lido:pref="http://terminology.lido-schema.org/lido00169">Tafelmalerei</lido:term>
+               </lido:classification>
+            </lido:classificationWrap>
+         </lido:objectClassificationWrap>
+         <lido:objectIdentificationWrap>
+            <lido:titleWrap><!--encodinganalog = a5200-->
+               <lido:titleSet>
+                  <lido:appellationValue lido:encodinganalog="a5200"
+                                         lido:pref="http://terminology.lido-schema.org/lido00169">Die Zugbrücke</lido:appellationValue>
+               </lido:titleSet>
+            </lido:titleWrap>
+            <lido:repositoryWrap><!--encodinganalog = aob28-->
+               <lido:repositorySet lido:type="http://terminology.lido-schema.org/lido00475">
+                  <lido:repositoryLocation/>
+               </lido:repositorySet>
+               <!--encodinganalog = aob28-->
+               <lido:repositorySet lido:type="http://terminology.lido-schema.org/lido00475">
+                  <lido:repositoryLocation><!--encodinganalog = a2864-->
+                     <lido:partOfPlace lido:politicalEntity="Ort">
+                        <lido:namePlaceSet>
+                           <lido:appellationValue lido:encodinganalog="a2864">Paris</lido:appellationValue>
+                        </lido:namePlaceSet>
+                     </lido:partOfPlace>
+                  </lido:repositoryLocation>
+               </lido:repositorySet>
+               <!--encodinganalog = aob28-->
+               <lido:repositorySet lido:type="http://terminology.lido-schema.org/lido00475">
+                  <lido:repositoryLocation><!--encodinganalog = a2864-->
+                     <lido:partOfPlace lido:politicalEntity="Ort">
+                        <lido:namePlaceSet>
+                           <lido:appellationValue lido:encodinganalog="a2864">Paris</lido:appellationValue>
+                        </lido:namePlaceSet>
+                     </lido:partOfPlace>
+                  </lido:repositoryLocation>
+               </lido:repositorySet>
+               <!--encodinganalog = aob28-->
+               <lido:repositorySet lido:type="http://terminology.lido-schema.org/lido00475">
+                  <lido:repositoryLocation><!--encodinganalog = a2864-->
+                     <lido:partOfPlace lido:politicalEntity="Ort">
+                        <lido:namePlaceSet>
+                           <lido:appellationValue lido:encodinganalog="a2864">Paris</lido:appellationValue>
+                        </lido:namePlaceSet>
+                     </lido:partOfPlace>
+                  </lido:repositoryLocation>
+               </lido:repositorySet>
+               <!--encodinganalog = aob28-->
+               <lido:repositorySet lido:type="http://terminology.lido-schema.org/lido00475">
+                  <lido:repositoryLocation><!--encodinganalog = a2864-->
+                     <lido:partOfPlace lido:politicalEntity="Ort">
+                        <lido:namePlaceSet>
+                           <lido:appellationValue lido:encodinganalog="a2864">Berlin</lido:appellationValue>
+                        </lido:namePlaceSet>
+                     </lido:partOfPlace>
+                  </lido:repositoryLocation>
+               </lido:repositorySet>
+               <!--encodinganalog = aob28-->
+               <lido:repositorySet lido:type="http://terminology.lido-schema.org/lido00475">
+                  <lido:repositoryName>
+                     <lido:legalBodyID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud">ver 20132038</lido:legalBodyID>
+                     <lido:legalBodyID lido:type="http://terminology.lido-schema.org/lido00099"
+                                       lido:source="ISIL (ISO 15511)">http://ld.zdb-services.de/resource/organisations/DE-MUS-079214</lido:legalBodyID>
+                     <lido:legalBodyID lido:type="http://terminology.lido-schema.org/lido00099"
+                                       lido:source="GND">http://d-nb.info/gnd/10073784-5</lido:legalBodyID>
+                     <lido:legalBodyName>
+                        <lido:appellationValue lido:pref="http://terminology.lido-schema.org/lido00169">Wallraf-Richartz-Museum &amp; Fondation Corboud – Gemäldesammlung</lido:appellationValue>
+                     </lido:legalBodyName>
+                  </lido:repositoryName>
+                  <!--encodinganalog = a2950-->
+                  <lido:workID lido:type="http://terminology.lido-schema.org/lido00113"
+                               lido:encodinganalog="a2950">WRM 1197</lido:workID>
+                  <lido:repositoryLocation><!--encodinganalog = a2864-->
+                     <lido:partOfPlace lido:politicalEntity="Ort">
+                        <lido:namePlaceSet>
+                           <lido:appellationValue lido:encodinganalog="a2864">Köln</lido:appellationValue>
+                        </lido:namePlaceSet>
+                     </lido:partOfPlace>
+                  </lido:repositoryLocation>
+               </lido:repositorySet>
+            </lido:repositoryWrap>
+            <lido:objectDescriptionWrap><!--encodinganalog = a599a-->
+               <lido:objectDescriptionSet lido:type="Erwerbungshinweis"><!--encodinganalog = a599e-->
+                  <lido:descriptiveNoteValue lido:encodinganalog="a599e">Das Bild wurde 1911 bei der Kunsthandlung Paul Cassirer, Berlin, für das Wallraf-Richartz-Museum erworben.</lido:descriptiveNoteValue>
+               </lido:objectDescriptionSet>
+               <!--encodinganalog = a599a-->
+               <lido:objectDescriptionSet lido:type="Kurzbeschreibung"><!--encodinganalog = a599e-->
+                  <lido:descriptiveNoteValue lido:encodinganalog="a599e">Das Gemälde zeigt eine Version des Motivs der Zugbrücke von Langlois. Es wird allgemein in den März 1888 datiert. Von der rechten Uferzone aus malt Van Gogh die Brücke bei strahlendem Sonnenschein, vermutlich um die Mittagszeit. Der hellblaue Himmel nimmt die gesamte obere Bildhälfte ein. Horizontal durch die Bildmitte verläuft die Brücke, deren Konstruktion detailliert ausgearbeitet ist. Im Vordergrund rechts zieht sich die Uferböschung diagonal durch das Bild, während das linke Ufer die Brückendarstellung horizontal weiter fortführt. Hier ragen zwei dunkelgrüne hohe Zypressen bis weit in den Himmel. Am rechten und linken Bildrand sind Häuser dargestellt. Auf der Brücke, in der Bildmitte ist eine Frau mit Schirm in dunkelblauer Farbe gemalt, fast so als stelle der Künstler hier ihren Schatten dar. Links fährt eine Pferde bespannte Kutsche die Brücke hinunter. Eine weitere Frau hockt am Ufer und wäscht anscheinend ihre Kleider im Fluss</lido:descriptiveNoteValue>
+                  <!--encodinganalog = a599n-->
+                  <lido:descriptiveNoteValue lido:encodinganalog="a599n">Saint-George, Caroline von</lido:descriptiveNoteValue>
+               </lido:objectDescriptionSet>
+               <!--encodinganalog = a599a-->
+               <lido:objectDescriptionSet lido:type="Werkkommentar"><!--encodinganalog = a599e-->
+                  <lido:descriptiveNoteValue lido:encodinganalog="a599e">Das Bild ist die letzte von vier Fassungen, die van Gogh von März bis Mai 1888 in Arles nach diesem Motiv malte (vgl. J.B. de la Faille, L'Oeuvre de V.v.G., Paris 1939, Nr. 435, Nr. 436, Nr. 587). Ferner existiert eine Zeichnung von van Gogh nach WRM 1197 (vgl. ebd., Paris 1928, Nr. 1471), vgl. "Master Drawings, Los Angeles 1997"</lido:descriptiveNoteValue>
+               </lido:objectDescriptionSet>
+               <!--encodinganalog = a599a-->
+               <lido:objectDescriptionSet lido:type="Provenienzhinweis"><!--encodinganalog = a599e-->
+                  <lido:descriptiveNoteValue lido:encodinganalog="a599e">Das Gemälde trägt rückseitig einen aufgeklebten Zettel mit der Aufschrift 'van Gogh 1351', die Inv.nr. aus dem Einkaufsbuch Paul Cassirers</lido:descriptiveNoteValue>
+                  <!--encodinganalog = a599n-->
+                  <lido:descriptiveNoteValue lido:encodinganalog="a599n">Saint-George, Caroline von</lido:descriptiveNoteValue>
+               </lido:objectDescriptionSet>
+               <!--encodinganalog = a599a-->
+               <lido:objectDescriptionSet lido:type="Online-Didaktik"><!--encodinganalog = a599d-->
+                  <lido:descriptiveNoteValue lido:encodinganalog="a599d">Van Gogh in Arles</lido:descriptiveNoteValue>
+                  <!--encodinganalog = a599e-->
+                  <lido:descriptiveNoteValue lido:encodinganalog="a599e">In der Provence suchte Vincent van Gogh sein „Japan“, das Land seiner künstlerischen Träume. Er fand dort aber auch Motive, die ihn an seine niederländische Heimat erinnerten. So auch diese Zugbrücke, die er insgesamt vier Mal auf die Leinwand bannte. In den kräftigen Farben hat er seinen Stil gefunden. Die Spontanität, die ihm oft angedichtet wird, ist hier jedoch nicht erkennbar. Im Gegenteil, der Maler studierte das Motiv mit Hilfe eines Fadengitters innerhalb eines Holzrahmens.</lido:descriptiveNoteValue>
+               </lido:objectDescriptionSet>
+               <!--encodinganalog = a599a-->
+               <lido:objectDescriptionSet lido:type="Online-Didaktik (englisch)"><!--encodinganalog = a599d-->
+                  <lido:descriptiveNoteValue lido:encodinganalog="a599d">Van Gogh in Arles</lido:descriptiveNoteValue>
+                  <!--encodinganalog = a599e-->
+                  <lido:descriptiveNoteValue lido:encodinganalog="a599e">In the Provence Vincent sought his own “Japan”, the land of his artistic dreams. What he in fact found there were motifs that reminded him of his home in the Netherlands. As for instance this drawbridge, which he committed to canvas all of four times. With these vibrant colours, van Gogh arrived at his own style. The spontaneity that is often credited to him is not, however, recognisable here. On the contrary, the painter studied the motif using a draughtsman’s grid – a lattice of threads mounted in a wooden frame.</lido:descriptiveNoteValue>
+               </lido:objectDescriptionSet>
+               <!--encodinganalog = a9105-->
+               <lido:objectDescriptionSet lido:type="Erhaltung">
+                  <lido:descriptiveNoteValue lido:encodinganalog="a9105">doublierte Leinwand; 1949 und 1961 restauriert; kleinere Farbaussprünge; Partien in Chromgelb stark oxydiert</lido:descriptiveNoteValue>
+               </lido:objectDescriptionSet>
+               <!--encodinganalog = a9904-->
+               <lido:objectDescriptionSet lido:type="Bearbeiter Datensatz">
+                  <lido:descriptiveNoteValue lido:encodinganalog="a9904">Nagel, Tobias &amp; Dziewior, Yilmaz &amp; Jünger, Dieter &amp; Czymmek, Götz</lido:descriptiveNoteValue>
+               </lido:objectDescriptionSet>
+            </lido:objectDescriptionWrap>
+            <lido:objectMeasurementsWrap><!--encodinganalog = a5360-->
+               <lido:objectMeasurementsSet>
+                  <lido:displayObjectMeasurements lido:encodinganalog="a5360">Höhe und Breite: 49,5 x 64,5</lido:displayObjectMeasurements>
+                  <lido:objectMeasurements>
+                     <lido:measurementsSet>
+                        <lido:measurementType>Höhe und Breite</lido:measurementType>
+                        <lido:measurementUnit>49,5 x 64,5</lido:measurementUnit>
+                        <lido:measurementValue>49,5 x 64,5</lido:measurementValue>
+                     </lido:measurementsSet>
+                     <lido:extentMeasurements>49,5 x 64,5</lido:extentMeasurements>
+                  </lido:objectMeasurements>
+               </lido:objectMeasurementsSet>
+            </lido:objectMeasurementsWrap>
+         </lido:objectIdentificationWrap>
+         <lido:eventWrap>
+            <lido:eventSet>
+               <lido:event>
+                  <lido:eventType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="http://terminology.lido-schema.org/eventType">http://terminology.lido-schema.org/lido00225</lido:conceptID>
+                     <lido:term xml:lang="de" lido:pref="http://terminology.lido-schema.org/lido00169">Ausstellung (Aktivitäten)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00169">exhibition (Activity)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00170">exhibition</lido:term>
+                  </lido:eventType>
+                  <lido:eventName>
+                     <lido:appellationValue>Galerie Paul Cassirer, berlin 1904</lido:appellationValue>
+                  </lido:eventName>
+               </lido:event>
+            </lido:eventSet>
+            <lido:eventSet>
+               <lido:event>
+                  <lido:eventType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="http://terminology.lido-schema.org/eventType">http://terminology.lido-schema.org/lido00225</lido:conceptID>
+                     <lido:term xml:lang="de" lido:pref="http://terminology.lido-schema.org/lido00169">Ausstellung (Aktivitäten)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00169">exhibition (Activity)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00170">exhibition</lido:term>
+                  </lido:eventType>
+                  <lido:eventName>
+                     <lido:appellationValue>Impressionismus - Wie das Licht auf die Leinwand kam, WRM, Köln 2008</lido:appellationValue>
+                  </lido:eventName>
+               </lido:event>
+            </lido:eventSet>
+            <lido:eventSet>
+               <lido:event>
+                  <lido:eventType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="http://terminology.lido-schema.org/eventType">http://terminology.lido-schema.org/lido00225</lido:conceptID>
+                     <lido:term xml:lang="de" lido:pref="http://terminology.lido-schema.org/lido00169">Ausstellung (Aktivitäten)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00169">exhibition (Activity)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00170">exhibition</lido:term>
+                  </lido:eventType>
+                  <lido:eventName>
+                     <lido:appellationValue>TatOrtMuseum, WRM, Köln 2011</lido:appellationValue>
+                  </lido:eventName>
+               </lido:event>
+            </lido:eventSet>
+            <lido:eventSet>
+               <lido:event>
+                  <lido:eventType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="http://terminology.lido-schema.org/eventType">http://terminology.lido-schema.org/lido00225</lido:conceptID>
+                     <lido:term xml:lang="de" lido:pref="http://terminology.lido-schema.org/lido00169">Ausstellung (Aktivitäten)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00169">exhibition (Activity)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00170">exhibition</lido:term>
+                  </lido:eventType>
+                  <lido:eventName>
+                     <lido:appellationValue>Von Dürer bis van Gogh, Köln 2016</lido:appellationValue>
+                  </lido:eventName>
+               </lido:event>
+            </lido:eventSet>
+            <lido:eventSet>
+               <lido:event>
+                  <lido:eventType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="http://terminology.lido-schema.org/eventType">http://terminology.lido-schema.org/lido00225</lido:conceptID>
+                     <lido:term xml:lang="de" lido:pref="http://terminology.lido-schema.org/lido00169">Ausstellung (Aktivitäten)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00169">exhibition (Activity)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00170">exhibition</lido:term>
+                  </lido:eventType>
+                  <lido:eventName>
+                     <lido:appellationValue>Bon Voyage Signac, Köln 2021</lido:appellationValue>
+                  </lido:eventName>
+               </lido:event>
+            </lido:eventSet>
+            <lido:eventSet>
+               <lido:event>
+                  <lido:eventType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="http://terminology.lido-schema.org/eventType">http://terminology.lido-schema.org/lido00225</lido:conceptID>
+                     <lido:term xml:lang="de" lido:pref="http://terminology.lido-schema.org/lido00169">Ausstellung (Aktivitäten)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00169">exhibition (Activity)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00170">exhibition</lido:term>
+                  </lido:eventType>
+                  <lido:eventName>
+                     <lido:appellationValue>Japan Tournee, 2009-2010</lido:appellationValue>
+                  </lido:eventName>
+               </lido:event>
+            </lido:eventSet>
+            <lido:eventSet>
+               <lido:event>
+                  <lido:eventType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="http://terminology.lido-schema.org/eventType">http://terminology.lido-schema.org/lido00225</lido:conceptID>
+                     <lido:term xml:lang="de" lido:pref="http://terminology.lido-schema.org/lido00169">Ausstellung (Aktivitäten)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00169">exhibition (Activity)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00170">exhibition</lido:term>
+                  </lido:eventType>
+                  <lido:eventName>
+                     <lido:appellationValue>Cézanne, Seoul, 2015-2016</lido:appellationValue>
+                  </lido:eventName>
+               </lido:event>
+            </lido:eventSet>
+            <lido:eventSet>
+               <lido:event>
+                  <lido:eventType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="http://terminology.lido-schema.org/eventType">http://terminology.lido-schema.org/lido00225</lido:conceptID>
+                     <lido:term xml:lang="de" lido:pref="http://terminology.lido-schema.org/lido00169">Ausstellung (Aktivitäten)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00169">exhibition (Activity)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00170">exhibition</lido:term>
+                  </lido:eventType>
+                  <lido:eventName>
+                     <lido:appellationValue>Cézanne, Fukuoka, 2016</lido:appellationValue>
+                  </lido:eventName>
+               </lido:event>
+            </lido:eventSet>
+            <lido:eventSet>
+               <lido:event>
+                  <lido:eventType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="http://terminology.lido-schema.org/eventType">http://terminology.lido-schema.org/lido00225</lido:conceptID>
+                     <lido:term xml:lang="de" lido:pref="http://terminology.lido-schema.org/lido00169">Ausstellung (Aktivitäten)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00169">exhibition (Activity)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00170">exhibition</lido:term>
+                  </lido:eventType>
+                  <lido:eventName>
+                     <lido:appellationValue>Cézanne, Okinawa, 2016</lido:appellationValue>
+                  </lido:eventName>
+               </lido:event>
+            </lido:eventSet>
+            <lido:eventSet>
+               <lido:event>
+                  <lido:eventType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="http://terminology.lido-schema.org/eventType">http://terminology.lido-schema.org/lido00225</lido:conceptID>
+                     <lido:term xml:lang="de" lido:pref="http://terminology.lido-schema.org/lido00169">Ausstellung (Aktivitäten)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00169">exhibition (Activity)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00170">exhibition</lido:term>
+                  </lido:eventType>
+                  <lido:eventName>
+                     <lido:appellationValue>Vincent, Martigny 2000</lido:appellationValue>
+                  </lido:eventName>
+               </lido:event>
+            </lido:eventSet>
+            <lido:eventSet>
+               <lido:event>
+                  <lido:eventType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="http://terminology.lido-schema.org/eventType">http://terminology.lido-schema.org/lido00225</lido:conceptID>
+                     <lido:term xml:lang="de" lido:pref="http://terminology.lido-schema.org/lido00169">Ausstellung (Aktivitäten)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00169">exhibition (Activity)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00170">exhibition</lido:term>
+                  </lido:eventType>
+                  <lido:eventName>
+                     <lido:appellationValue>Impressionism, Stockholm, 2002/2003</lido:appellationValue>
+                  </lido:eventName>
+               </lido:event>
+            </lido:eventSet>
+            <lido:eventSet>
+               <lido:event>
+                  <lido:eventType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="http://terminology.lido-schema.org/eventType">http://terminology.lido-schema.org/lido00225</lido:conceptID>
+                     <lido:term xml:lang="de" lido:pref="http://terminology.lido-schema.org/lido00169">Ausstellung (Aktivitäten)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00169">exhibition (Activity)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00170">exhibition</lido:term>
+                  </lido:eventType>
+                  <lido:eventName>
+                     <lido:appellationValue>van Gogh - Artaud, Paris, 2014</lido:appellationValue>
+                  </lido:eventName>
+               </lido:event>
+            </lido:eventSet>
+            <lido:eventSet>
+               <lido:event>
+                  <lido:eventType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="http://terminology.lido-schema.org/eventType">http://terminology.lido-schema.org/lido00225</lido:conceptID>
+                     <lido:term xml:lang="de" lido:pref="http://terminology.lido-schema.org/lido00169">Ausstellung (Aktivitäten)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00169">exhibition (Activity)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00170">exhibition</lido:term>
+                  </lido:eventType>
+                  <lido:eventName>
+                     <lido:appellationValue>van Gogh, Vicenza, 2017/2018</lido:appellationValue>
+                  </lido:eventName>
+               </lido:event>
+            </lido:eventSet>
+            <lido:eventSet>
+               <lido:event>
+                  <lido:eventType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="http://terminology.lido-schema.org/eventType">http://terminology.lido-schema.org/lido00225</lido:conceptID>
+                     <lido:term xml:lang="de" lido:pref="http://terminology.lido-schema.org/lido00169">Ausstellung (Aktivitäten)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00169">exhibition (Activity)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00170">exhibition</lido:term>
+                  </lido:eventType>
+                  <lido:eventName>
+                     <lido:appellationValue>van Gogh, Houston, 2019</lido:appellationValue>
+                  </lido:eventName>
+               </lido:event>
+            </lido:eventSet>
+            <lido:eventSet>
+               <lido:event>
+                  <lido:eventType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="http://terminology.lido-schema.org/eventType">http://terminology.lido-schema.org/lido00225</lido:conceptID>
+                     <lido:term xml:lang="de" lido:pref="http://terminology.lido-schema.org/lido00169">Ausstellung (Aktivitäten)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00169">exhibition (Activity)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00170">exhibition</lido:term>
+                  </lido:eventType>
+                  <lido:eventName>
+                     <lido:appellationValue>van Gogh, Detroit, 2022</lido:appellationValue>
+                  </lido:eventName>
+               </lido:event>
+            </lido:eventSet>
+            <lido:eventSet>
+               <lido:event>
+                  <lido:eventType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="http://terminology.lido-schema.org/eventType">http://terminology.lido-schema.org/lido00225</lido:conceptID>
+                     <lido:term xml:lang="de" lido:pref="http://terminology.lido-schema.org/lido00169">Ausstellung (Aktivitäten)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00169">exhibition (Activity)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00170">exhibition</lido:term>
+                  </lido:eventType>
+                  <lido:eventName>
+                     <lido:appellationValue>Van Gogh´s Cypresses, New York 2023</lido:appellationValue>
+                  </lido:eventName>
+               </lido:event>
+            </lido:eventSet>
+            <lido:eventSet>
+               <lido:event>
+                  <lido:eventType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="http://terminology.lido-schema.org/eventType">http://terminology.lido-schema.org/lido00225</lido:conceptID>
+                     <lido:term xml:lang="de" lido:pref="http://terminology.lido-schema.org/lido00169">Ausstellung (Aktivitäten)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00169">exhibition (Activity)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00170">exhibition</lido:term>
+                  </lido:eventType>
+                  <lido:eventName>
+                     <lido:appellationValue>Van Gogh in Arles, New York 1984</lido:appellationValue>
+                  </lido:eventName>
+               </lido:event>
+            </lido:eventSet>
+            <lido:eventSet>
+               <lido:event>
+                  <lido:eventType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="http://terminology.lido-schema.org/eventType">http://terminology.lido-schema.org/lido00225</lido:conceptID>
+                     <lido:term xml:lang="de" lido:pref="http://terminology.lido-schema.org/lido00169">Ausstellung (Aktivitäten)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00169">exhibition (Activity)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00170">exhibition</lido:term>
+                  </lido:eventType>
+                  <lido:eventName>
+                     <lido:appellationValue>Meister des Impressionismus, Nara (u.a.) 1996</lido:appellationValue>
+                  </lido:eventName>
+               </lido:event>
+            </lido:eventSet>
+            <lido:eventSet>
+               <lido:event>
+                  <lido:eventType><!--MIDAS-eventType literal was: Herstellung-->
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="http://terminology.lido-schema.org/eventType">http://terminology.lido-schema.org/lido00007</lido:conceptID>
+                     <lido:term xml:lang="de">Herstellung</lido:term>
+                     <lido:term xml:lang="en">Production</lido:term>
+                     <lido:term xml:lang="de"
+                                lido:addedSearchTerm="yes"
+                                lido:pref="http://terminology.lido-schema.org/lido00170">Herstellung</lido:term>
+                  </lido:eventType>
+                  <!--encodinganalog = aob30-->
+                  <lido:eventActor>
+                     <lido:actorInRole>
+                        <lido:actor lido:type="http://terminology.lido-schema.org/lido00163"><!--encodinganalog = a3100-->
+                           <lido:nameActorSet>
+                              <lido:appellationValue lido:pref="http://terminology.lido-schema.org/lido00169">Gogh, Vincent van</lido:appellationValue>
+                           </lido:nameActorSet>
+                        </lido:actor>
+                        <!--encodinganalog = a3475-->
+                        <lido:roleActor>
+                           <lido:term>Maler</lido:term>
+                        </lido:roleActor>
+                     </lido:actorInRole>
+                  </lido:eventActor>
+                  <!--encodinganalog = a5060-->
+                  <lido:eventDate><!--encodinganalog = a5064-->
+                     <lido:displayDate>1888</lido:displayDate>
+                     <lido:date><!--encodinganalog = a5071-->
+                        <lido:earliestDate>1888</lido:earliestDate>
+                        <!--encodinganalog = a5077-->
+                        <lido:latestDate>1888</lido:latestDate>
+                     </lido:date>
+                  </lido:eventDate>
+                  <!--encodinganalog = a5260-->
+                  <lido:eventMaterialsTech>
+                     <lido:materialsTech>
+                        <lido:termMaterialsTech lido:type="http://terminology.lido-schema.org/lido00132">
+                           <lido:term>Öl &amp; Leinwand</lido:term>
+                        </lido:termMaterialsTech>
+                     </lido:materialsTech>
+                  </lido:eventMaterialsTech>
+                  <!--encodinganalog = a5060-->
+               </lido:event>
+            </lido:eventSet>
+         </lido:eventWrap>
+         <lido:objectRelationWrap>
+            <lido:subjectWrap><!--encodinganalog = a5500-->
+               <lido:subjectSet>
+                  <lido:subject lido:type="http://terminology.lido-schema.org/lido00745">
+                     <lido:subjectConcept>
+                        <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                        lido:source="http://iconclass.org">http://iconclass.org/25%20I%206</lido:conceptID>
+                        <lido:term lido:pref="http://terminology.lido-schema.org/lido00169">Landschaft mit einer Brücke, einem Viadukt oder Aquädukt</lido:term>
+                        <lido:term lido:pref="http://terminology.lido-schema.org/lido00170"
+                                   lido:addedSearchTerm="yes">25 I 6</lido:term>
+                     </lido:subjectConcept>
+                  </lido:subject>
+               </lido:subjectSet>
+               <!--encodinganalog = a5500-->
+               <lido:subjectSet>
+                  <lido:subject lido:type="http://terminology.lido-schema.org/lido00745">
+                     <lido:subjectConcept>
+                        <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                        lido:source="http://iconclass.org">http://iconclass.org/61%20E%20%28ARLES%29</lido:conceptID>
+                        <lido:term lido:pref="http://terminology.lido-schema.org/lido00169">Namen von Städten und Dörfern</lido:term>
+                        <lido:term lido:pref="http://terminology.lido-schema.org/lido00170"
+                                   lido:addedSearchTerm="yes">61 E (ARLES)</lido:term>
+                     </lido:subjectConcept>
+                  </lido:subject>
+               </lido:subjectSet>
+               <!--encodinganalog = a5500-->
+               <lido:subjectSet>
+                  <lido:subject lido:type="http://terminology.lido-schema.org/lido00745">
+                     <lido:subjectConcept>
+                        <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                        lido:source="http://iconclass.org">http://iconclass.org/25%20I%2014%2051</lido:conceptID>
+                        <lido:term lido:pref="http://terminology.lido-schema.org/lido00169">Flussbrücke, Kanalbrücke, etc. (in der Stadt)</lido:term>
+                        <lido:term lido:pref="http://terminology.lido-schema.org/lido00170"
+                                   lido:addedSearchTerm="yes">25 I 14 51</lido:term>
+                     </lido:subjectConcept>
+                  </lido:subject>
+               </lido:subjectSet>
+               <!--encodinganalog = a5500-->
+               <lido:subjectSet>
+                  <lido:subject lido:type="http://terminology.lido-schema.org/lido00745">
+                     <lido:subjectConcept>
+                        <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                        lido:source="http://iconclass.org">http://iconclass.org/24%20A%208</lido:conceptID>
+                        <lido:term lido:pref="http://terminology.lido-schema.org/lido00169">Sonnenlicht</lido:term>
+                        <lido:term lido:pref="http://terminology.lido-schema.org/lido00170"
+                                   lido:addedSearchTerm="yes">24 A 8</lido:term>
+                     </lido:subjectConcept>
+                  </lido:subject>
+               </lido:subjectSet>
+               <!--encodinganalog = a5500-->
+               <lido:subjectSet>
+                  <lido:subject lido:type="http://terminology.lido-schema.org/lido00745">
+                     <lido:subjectConcept>
+                        <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                        lido:source="http://iconclass.org">http://iconclass.org/24%20F</lido:conceptID>
+                        <lido:term lido:pref="http://terminology.lido-schema.org/lido00169">Firmament, Himmel</lido:term>
+                        <lido:term lido:pref="http://terminology.lido-schema.org/lido00170"
+                                   lido:addedSearchTerm="yes">24 F</lido:term>
+                     </lido:subjectConcept>
+                  </lido:subject>
+               </lido:subjectSet>
+               <!--encodinganalog = a5500-->
+               <lido:subjectSet>
+                  <lido:subject lido:type="http://terminology.lido-schema.org/lido00745">
+                     <lido:subjectConcept>
+                        <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                        lido:source="http://iconclass.org">http://iconclass.org/25%20H%2021%203</lido:conceptID>
+                        <lido:term lido:pref="http://terminology.lido-schema.org/lido00169">Fluss</lido:term>
+                        <lido:term lido:pref="http://terminology.lido-schema.org/lido00170"
+                                   lido:addedSearchTerm="yes">25 H 21 3</lido:term>
+                     </lido:subjectConcept>
+                  </lido:subject>
+               </lido:subjectSet>
+               <!--encodinganalog = a5500-->
+               <lido:subjectSet>
+                  <lido:subject lido:type="http://terminology.lido-schema.org/lido00745">
+                     <lido:subjectConcept>
+                        <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                        lido:source="http://iconclass.org">http://iconclass.org/46%20C%2013</lido:conceptID>
+                        <lido:term lido:pref="http://terminology.lido-schema.org/lido00169">Reittiere; Lasttiere (Pferd, Esel, Maultier)</lido:term>
+                        <lido:term lido:pref="http://terminology.lido-schema.org/lido00170"
+                                   lido:addedSearchTerm="yes">46 C 13</lido:term>
+                     </lido:subjectConcept>
+                  </lido:subject>
+               </lido:subjectSet>
+               <!--encodinganalog = a5500-->
+               <lido:subjectSet>
+                  <lido:subject lido:type="http://terminology.lido-schema.org/lido00745">
+                     <lido:subjectConcept>
+                        <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                        lido:source="http://iconclass.org">http://iconclass.org/3</lido:conceptID>
+                        <lido:term lido:pref="http://terminology.lido-schema.org/lido00169">der Mensch (allgemein)</lido:term>
+                        <lido:term lido:pref="http://terminology.lido-schema.org/lido00170"
+                                   lido:addedSearchTerm="yes">3</lido:term>
+                     </lido:subjectConcept>
+                  </lido:subject>
+               </lido:subjectSet>
+               <!--encodinganalog = a5500-->
+               <lido:subjectSet>
+                  <lido:subject lido:type="http://terminology.lido-schema.org/lido00745">
+                     <lido:subjectConcept>
+                        <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                        lido:source="http://iconclass.org">http://iconclass.org/46%20A%2014</lido:conceptID>
+                        <lido:term lido:pref="http://terminology.lido-schema.org/lido00169">männlicher Bauer</lido:term>
+                        <lido:term lido:pref="http://terminology.lido-schema.org/lido00170"
+                                   lido:addedSearchTerm="yes">46 A 14</lido:term>
+                     </lido:subjectConcept>
+                  </lido:subject>
+               </lido:subjectSet>
+               <!--encodinganalog = a5500-->
+               <lido:subjectSet>
+                  <lido:subject lido:type="http://terminology.lido-schema.org/lido00745">
+                     <lido:subjectConcept>
+                        <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                        lido:source="http://iconclass.org">http://iconclass.org/25%20G%203%20%28CYPRESS%29</lido:conceptID>
+                        <lido:term lido:pref="http://terminology.lido-schema.org/lido00169">Bäume: Zypresse</lido:term>
+                        <lido:term lido:pref="http://terminology.lido-schema.org/lido00170"
+                                   lido:addedSearchTerm="yes">25 G 3 (CYPRESS)</lido:term>
+                     </lido:subjectConcept>
+                  </lido:subject>
+               </lido:subjectSet>
+               <!--encodinganalog = a5560-->
+               <lido:subjectSet>
+                  <lido:subject lido:type="http://terminology.lido-schema.org/lido00745">
+                     <lido:subjectConcept>
+                        <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                        lido:source="http://iconclass.org">http://iconclass.org/61 F (PONT DE LANGLOIS)</lido:conceptID>
+                        <lido:term lido:pref="http://terminology.lido-schema.org/lido00169"/>
+                        <lido:term lido:pref="http://terminology.lido-schema.org/lido00170"
+                                   lido:addedSearchTerm="yes">61 F (PONT DE LANGLOIS)</lido:term>
+                     </lido:subjectConcept>
+                  </lido:subject>
+               </lido:subjectSet>
+               <!--encodinganalog = a5630-->
+               <lido:subjectSet>
+                  <lido:subject lido:type="http://terminology.lido-schema.org/lido00745">
+                     <lido:subjectConcept>
+                        <lido:term lido:pref="http://terminology.lido-schema.org/lido00170">Fernsicht</lido:term>
+                     </lido:subjectConcept>
+                  </lido:subject>
+               </lido:subjectSet>
+               <lido:subjectSet>
+                  <lido:subject lido:type="http://terminology.lido-schema.org/lido00745">
+                     <lido:subjectConcept>
+                        <lido:term lido:pref="http://terminology.lido-schema.org/lido00170">tiefer Horizont (2/3)</lido:term>
+                     </lido:subjectConcept>
+                  </lido:subject>
+               </lido:subjectSet>
+            </lido:subjectWrap>
+            <lido:relatedWorksWrap><!--encodinganalog = a5007-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:object><!--encodinganalog = a5008-->
+                        <lido:objectWebResource>http://www.bildindex.de/document/obj01040090</lido:objectWebResource>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"
+                                       lido:encodinganalog="a5008">obj 01040090</lido:objectID>
+                        <!--encodinganalog = 5009ff-->
+                        <!--CHECK ME-->
+                        <lido:objectNote/>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:term>dritte Fassung</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a5007-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:object><!--encodinganalog = 5009ff--><!--CHECK ME-->
+                        <lido:objectNote>Gogh, Vincent van: The Bridge at Laglois, Los Angeles (Zeichnung)</lido:objectNote>
+                        <!--encodinganalog = a501t-->
+                        <lido:objectNote lido:type="Kurzbeschreibung">County Museum of Art</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:term>Vorlage</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>van Gogh, Paris 1928<!--encodinganalog = a8334-->, S. 161f., (Bd. 1) &amp; Abbildung 570 und Tafel 156 (Bd. 2)</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 05023835</lido:objectID>
+                        <lido:objectNote>van Gogh, Paris 1928<!--encodinganalog = a8334-->, S. 161f., (Bd. 1) &amp; Abbildung 570 und Tafel 156 (Bd. 2)</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>van Gogh, Vincent, Paris 1939<!--encodinganalog = a8334-->, S. 407 &amp; Abbildung 588</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 05023836</lido:objectID>
+                        <lido:objectNote>van Gogh, Vincent, Paris 1939<!--encodinganalog = a8334-->, S. 407 &amp; Abbildung 588</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Los Angeles, County Museum of Art, 1997<!--encodinganalog = a8334-->, S. 138-139 &amp; Abb. S. 139 (Zeichnung) &amp; Kat-Nr. 59</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"/>
+                        <lido:objectNote>Los Angeles, County Museum of Art, 1997<!--encodinganalog = a8334-->, S. 138-139 &amp; Abb. S. 139 (Zeichnung) &amp; Kat-Nr. 59</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Wallraf-Richartz-Museum, Düsseldorf 1951<!--encodinganalog = a8334-->, Abbildung S. 21</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 05021594</lido:objectID>
+                        <lido:objectNote>Wallraf-Richartz-Museum, Düsseldorf 1951<!--encodinganalog = a8334-->, Abbildung S. 21</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Köln WRM, Lochner zur Gegenwart, 1959<!--encodinganalog = a8334-->, S. 70ff. &amp; Farbabbildung S. 71</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 05023164</lido:objectID>
+                        <lido:objectNote>Köln WRM, Lochner zur Gegenwart, 1959<!--encodinganalog = a8334-->, S. 70ff. &amp; Farbabbildung S. 71</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Köln WRM, Gemälde des 19. Jh., 1964<!--encodinganalog = a8334-->, S. 45 &amp; Abbildung S. 184</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 05023781</lido:objectID>
+                        <lido:objectNote>Köln WRM, Gemälde des 19. Jh., 1964<!--encodinganalog = a8334-->, S. 45 &amp; Abbildung S. 184</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Van Gogh in Arles, New York 1984<!--encodinganalog = a8334-->, S. 74f. &amp; Kat-Nr. 28</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 05018206</lido:objectID>
+                        <lido:objectNote>Van Gogh in Arles, New York 1984<!--encodinganalog = a8334-->, S. 74f. &amp; Kat-Nr. 28</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Hulsker, van Gogh, 1985<!--encodinganalog = a8334-->, Abbildung 1421</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 05024049</lido:objectID>
+                        <lido:objectNote>Hulsker, van Gogh, 1985<!--encodinganalog = a8334-->, Abbildung 1421</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Van Gogh Bd. 2, 1989<!--encodinganalog = a8334-->, S. 343</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 20400021</lido:objectID>
+                        <lido:objectNote>Van Gogh Bd. 2, 1989<!--encodinganalog = a8334-->, S. 343</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Hulsker, New Complete van Gogh, 1996<!--encodinganalog = a8334-->, Abbildung 1421</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"/>
+                        <lido:objectNote>Hulsker, New Complete van Gogh, 1996<!--encodinganalog = a8334-->, Abbildung 1421</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Köln WRM, Vollständiges Verzeichnis, 1986<!--encodinganalog = a8334-->, S. 33 &amp; Abbildung 639</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 05020901</lido:objectID>
+                        <lido:objectNote>Köln WRM, Vollständiges Verzeichnis, 1986<!--encodinganalog = a8334-->, S. 33 &amp; Abbildung 639</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Köln WRM, 120 Meisterwerke, 1986<!--encodinganalog = a8334-->, S. 258</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 05023945</lido:objectID>
+                        <lido:objectNote>Köln WRM, 120 Meisterwerke, 1986<!--encodinganalog = a8334-->, S. 258</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Meister des Impressionismus, Nara (u.a.) 1996<!--encodinganalog = a8334-->, S. 28, 84, 161 &amp; Abbildung 22, S. 28, Farbabbildung S. 85 &amp; Kat-Nr. 24</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 05017186</lido:objectID>
+                        <lido:objectNote>Meister des Impressionismus, Nara (u.a.) 1996<!--encodinganalog = a8334-->, S. 28, 84, 161 &amp; Abbildung 22, S. 28, Farbabbildung S. 85 &amp; Kat-Nr. 24</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Perkowitz, Empire of Light, 1996<!--encodinganalog = a8334-->, S. 121-127 &amp; mit Abb.</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 05017718</lido:objectID>
+                        <lido:objectNote>Perkowitz, Empire of Light, 1996<!--encodinganalog = a8334-->, S. 121-127 &amp; mit Abb.</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Welsh-Ovcharov, Van Gogh, 1999<!--encodinganalog = a8334-->, S. 52</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 05013918</lido:objectID>
+                        <lido:objectNote>Welsh-Ovcharov, Van Gogh, 1999<!--encodinganalog = a8334-->, S. 52</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Köln WRM, 100 Meisterwerke, 2001<!--encodinganalog = a8334-->, S. 216 mit Abb.</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 05501014</lido:objectID>
+                        <lido:objectNote>Köln WRM, 100 Meisterwerke, 2001<!--encodinganalog = a8334-->, S. 216 mit Abb.</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Meister des Impressionismus, WRM, Köln 2008<!--encodinganalog = a8334-->, Abb. S. 165</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 05501026</lido:objectID>
+                        <lido:objectNote>Meister des Impressionismus, WRM, Köln 2008<!--encodinganalog = a8334-->, Abb. S. 165</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Impressionismus - Wie das Licht auf die Leinwand kam, WRM, Köln 2008<!--encodinganalog = a8334-->, S. 109, Abb. 105 S. 108</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 05501024</lido:objectID>
+                        <lido:objectNote>Impressionismus - Wie das Licht auf die Leinwand kam, WRM, Köln 2008<!--encodinganalog = a8334-->, S. 109, Abb. 105 S. 108</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Von Dürer bis van Gogh, Köln 2016<!--encodinganalog = a8334-->, Kat. 64 S. 191, 21; Abb. S. 193; Angaben zur Provenienz S. 219</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40022149</lido:objectID>
+                        <lido:objectNote>Von Dürer bis van Gogh, Köln 2016<!--encodinganalog = a8334-->, Kat. 64 S. 191, 21; Abb. S. 193; Angaben zur Provenienz S. 219</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Köln WRM, Gemälde des 19. Jh., 1964<!--encodinganalog = a8334-->, S. 44f</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 05023781</lido:objectID>
+                        <lido:objectNote>Köln WRM, Gemälde des 19. Jh., 1964<!--encodinganalog = a8334-->, S. 44f</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Cicerone, ab 1909<!--encodinganalog = a8334-->, 1911, S. 790</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40023844</lido:objectID>
+                        <lido:objectNote>Cicerone, ab 1909<!--encodinganalog = a8334-->, 1911, S. 790</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Niemeyer, Malerische Impression, 1911<!--encodinganalog = a8334-->, zwischen S. 172 und 173 Abb.</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40026293</lido:objectID>
+                        <lido:objectNote>Niemeyer, Malerische Impression, 1911<!--encodinganalog = a8334-->, zwischen S. 172 und 173 Abb.</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Hagelstange, Jubiläumsgaben, 1911<!--encodinganalog = a8334-->, S. 82, 84, 85 Abb., 86</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 05017153</lido:objectID>
+                        <lido:objectNote>Hagelstange, Jubiläumsgaben, 1911<!--encodinganalog = a8334-->, S. 82, 84, 85 Abb., 86</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Biermann, Neuerwerbungen. 1912<!--encodinganalog = a8334-->, S. 259, Abb. 10; 265</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40023110</lido:objectID>
+                        <lido:objectNote>Biermann, Neuerwerbungen. 1912<!--encodinganalog = a8334-->, S. 259, Abb. 10; 265</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Fortlage, Jubiläumsausstellung im Wallraf, 1912<!--encodinganalog = a8334-->, S. 115</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40025539</lido:objectID>
+                        <lido:objectNote>Fortlage, Jubiläumsausstellung im Wallraf, 1912<!--encodinganalog = a8334-->, S. 115</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Köln WRM, Verzeichnis, 1914<!--encodinganalog = a8334-->, S. 405, Abb.; 415, Nr. 989</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 05017663</lido:objectID>
+                        <lido:objectNote>Köln WRM, Verzeichnis, 1914<!--encodinganalog = a8334-->, S. 405, Abb.; 415, Nr. 989</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Hagelstange, Wallraf-Richartz-Museum, 1915<!--encodinganalog = a8334-->, S. 163</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40025320</lido:objectID>
+                        <lido:objectNote>Hagelstange, Wallraf-Richartz-Museum, 1915<!--encodinganalog = a8334-->, S. 163</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Cohen, Alfred Hagelstange, 1915<!--encodinganalog = a8334-->, Sp. 138</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40025321</lido:objectID>
+                        <lido:objectNote>Cohen, Alfred Hagelstange, 1915<!--encodinganalog = a8334-->, Sp. 138</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Waldmann, Moderne im Wallraf, 1915<!--encodinganalog = a8334-->, S. 64, Abb; 66; 69</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40025542</lido:objectID>
+                        <lido:objectNote>Waldmann, Moderne im Wallraf, 1915<!--encodinganalog = a8334-->, S. 64, Abb; 66; 69</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Das Kunstblatt<!--encodinganalog = a8334-->, 3, 1919, S. 237, (N.N.: Die "Kunst der Lebenden" in den Deutschen Museen)</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 02510608</lido:objectID>
+                        <lido:objectNote>Das Kunstblatt<!--encodinganalog = a8334-->, 3, 1919, S. 237, (N.N.: Die "Kunst der Lebenden" in den Deutschen Museen)</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Pfister, Vincent van Gogh, 1921-1922<!--encodinganalog = a8334-->, S. 319, Abb.</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40026893</lido:objectID>
+                        <lido:objectNote>Pfister, Vincent van Gogh, 1921-1922<!--encodinganalog = a8334-->, S. 319, Abb.</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Schmidt, Technik in der Kunst, 1922<!--encodinganalog = a8334-->, S. 56, Abb.</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40026894</lido:objectID>
+                        <lido:objectNote>Schmidt, Technik in der Kunst, 1922<!--encodinganalog = a8334-->, S. 56, Abb.</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Salmony, neue Galerie im Wallraf, (1924)<!--encodinganalog = a8334-->, S. 7</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40025280</lido:objectID>
+                        <lido:objectNote>Salmony, neue Galerie im Wallraf, (1924)<!--encodinganalog = a8334-->, S. 7</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Becker, Malerei des 19. Jahrhunderts, 1925<!--encodinganalog = a8334-->, S. 49, 51, Abb. 31; 52</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40024503</lido:objectID>
+                        <lido:objectNote>Becker, Malerei des 19. Jahrhunderts, 1925<!--encodinganalog = a8334-->, S. 49, 51, Abb. 31; 52</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Köln WRM, Wegweiser, 1927<!--encodinganalog = a8334-->, S. 104, Nr. 1197</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40022916</lido:objectID>
+                        <lido:objectNote>Köln WRM, Wegweiser, 1927<!--encodinganalog = a8334-->, S. 104, Nr. 1197</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Köln WRM, Galerie der Neuzeit, 1927<!--encodinganalog = a8334-->, S. 112; 114, Abb. 125; 115</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40025472</lido:objectID>
+                        <lido:objectNote>Köln WRM, Galerie der Neuzeit, 1927<!--encodinganalog = a8334-->, S. 112; 114, Abb. 125; 115</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Scheffler, Europäische Kunst, 1927<!--encodinganalog = a8334-->, II, S. 172</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 02530080</lido:objectID>
+                        <lido:objectNote>Scheffler, Europäische Kunst, 1927<!--encodinganalog = a8334-->, II, S. 172</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Secker, Wallraf-Richartz-Museum, 1927-28<!--encodinganalog = a8334-->, S. 45, Abb.</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40024504</lido:objectID>
+                        <lido:objectNote>Secker, Wallraf-Richartz-Museum, 1927-28<!--encodinganalog = a8334-->, S. 45, Abb.</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Tietze, Peintres Francais, 1928<!--encodinganalog = a8334-->, S. 117</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40026895</lido:objectID>
+                        <lido:objectNote>Tietze, Peintres Francais, 1928<!--encodinganalog = a8334-->, S. 117</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Faille, Vincent van Gogh, 1928<!--encodinganalog = a8334-->, Tafel 156, Abb. 570</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40026896</lido:objectID>
+                        <lido:objectNote>Faille, Vincent van Gogh, 1928<!--encodinganalog = a8334-->, Tafel 156, Abb. 570</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Pfister, Vincent van Gogh, 1929<!--encodinganalog = a8334-->, S. 72; 73, Abb.</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40026897</lido:objectID>
+                        <lido:objectNote>Pfister, Vincent van Gogh, 1929<!--encodinganalog = a8334-->, S. 72; 73, Abb.</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Knapp, Vincent van Gogh, 1929/30<!--encodinganalog = a8334-->, S. 35, Abb.; 38</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40026898</lido:objectID>
+                        <lido:objectNote>Knapp, Vincent van Gogh, 1929/30<!--encodinganalog = a8334-->, S. 35, Abb.; 38</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Knapp, Vincent van Gogh, 1930<!--encodinganalog = a8334-->, S. 24, Abb. 20; 54</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40026899</lido:objectID>
+                        <lido:objectNote>Knapp, Vincent van Gogh, 1930<!--encodinganalog = a8334-->, S. 24, Abb. 20; 54</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Moderne Malerei vom Impressionismus bis zur Gegenwart, Altona 1933<!--encodinganalog = a8334-->, S. 36; 37, Abb.</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40026900</lido:objectID>
+                        <lido:objectNote>Moderne Malerei vom Impressionismus bis zur Gegenwart, Altona 1933<!--encodinganalog = a8334-->, S. 36; 37, Abb.</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Köln WRM, Wegweiser und Verzeichnis, 1936<!--encodinganalog = a8334-->, S. 51, Nr. 1197, mit Abb.</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40025476</lido:objectID>
+                        <lido:objectNote>Köln WRM, Wegweiser und Verzeichnis, 1936<!--encodinganalog = a8334-->, S. 51, Nr. 1197, mit Abb.</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Uhde/Goldscheider, Vincent van Gogh, 1936<!--encodinganalog = a8334-->, Abb. 31</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40026901</lido:objectID>
+                        <lido:objectNote>Uhde/Goldscheider, Vincent van Gogh, 1936<!--encodinganalog = a8334-->, Abb. 31</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Vitali, Vincent van Gogh, 1936<!--encodinganalog = a8334-->, Tafel 16, Abb.</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40026902</lido:objectID>
+                        <lido:objectNote>Vitali, Vincent van Gogh, 1936<!--encodinganalog = a8334-->, Tafel 16, Abb.</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Florisoone, van Gogh, 1937<!--encodinganalog = a8334-->, S. 26, Abb.</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40026903</lido:objectID>
+                        <lido:objectNote>Florisoone, van Gogh, 1937<!--encodinganalog = a8334-->, S. 26, Abb.</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Scherjon/Gruyter, Vincent van Gogh, 1937<!--encodinganalog = a8334-->, S. 61, Abb. 31</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40026904</lido:objectID>
+                        <lido:objectNote>Scherjon/Gruyter, Vincent van Gogh, 1937<!--encodinganalog = a8334-->, S. 61, Abb. 31</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Köln WRM, Niederländische, französische etc. Gemälde, 1941<!--encodinganalog = a8334-->, S. 50, Abb. 1197</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 05090115</lido:objectID>
+                        <lido:objectNote>Köln WRM, Niederländische, französische etc. Gemälde, 1941<!--encodinganalog = a8334-->, S. 50, Abb. 1197</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Moderne französische Malerei, München 1947<!--encodinganalog = a8334-->, S. 26, Nr. 58</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40026905</lido:objectID>
+                        <lido:objectNote>Moderne französische Malerei, München 1947<!--encodinganalog = a8334-->, S. 26, Nr. 58</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Meister der modernen französischen Malerei, Wien 1947<!--encodinganalog = a8334-->, S. 12, Nr. 58</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40026906</lido:objectID>
+                        <lido:objectNote>Meister der modernen französischen Malerei, Wien 1947<!--encodinganalog = a8334-->, S. 12, Nr. 58</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Biermann, Vincent van Gogh, 1947<!--encodinganalog = a8334-->, zwischen S. 56 und 57 Abb. 8</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40026907</lido:objectID>
+                        <lido:objectNote>Biermann, Vincent van Gogh, 1947<!--encodinganalog = a8334-->, zwischen S. 56 und 57 Abb. 8</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Goldscheider/Uhde, Vincent van Gogh, 1947<!--encodinganalog = a8334-->, Abb. 28</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40026908</lido:objectID>
+                        <lido:objectNote>Goldscheider/Uhde, Vincent van Gogh, 1947<!--encodinganalog = a8334-->, Abb. 28</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Hildebrandt, Von der Renaissance bis zum 19. Jahrhundert, 1948<!--encodinganalog = a8334-->, S. 27</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40026892</lido:objectID>
+                        <lido:objectNote>Hildebrandt, Von der Renaissance bis zum 19. Jahrhundert, 1948<!--encodinganalog = a8334-->, S. 27</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Meisterwerke aus neun Jahrhunderten<!--encodinganalog = a8334-->, S. 108, Abb.</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40022215</lido:objectID>
+                        <lido:objectNote>Meisterwerke aus neun Jahrhunderten<!--encodinganalog = a8334-->, S. 108, Abb.</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Köln WRM, Moderne Abteilung, 1949<!--encodinganalog = a8334-->, S. 27, Nr. 301</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40025368</lido:objectID>
+                        <lido:objectNote>Köln WRM, Moderne Abteilung, 1949<!--encodinganalog = a8334-->, S. 27, Nr. 301</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Weisbach, Vincent van Gogh, 1951<!--encodinganalog = a8334-->, S. 61</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40026909</lido:objectID>
+                        <lido:objectNote>Weisbach, Vincent van Gogh, 1951<!--encodinganalog = a8334-->, S. 61</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Parronchi, van Gogh, 1950<!--encodinganalog = a8334-->, Abb. 37</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40026910</lido:objectID>
+                        <lido:objectNote>Parronchi, van Gogh, 1950<!--encodinganalog = a8334-->, Abb. 37</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Schapiro, Vincent van Gogh, 1950<!--encodinganalog = a8334-->, S. 54; 55, Abb.</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40026911</lido:objectID>
+                        <lido:objectNote>Schapiro, Vincent van Gogh, 1950<!--encodinganalog = a8334-->, S. 54; 55, Abb.</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Künder unseres Jahrhunderts, Recklinghausen 1951<!--encodinganalog = a8334-->, S. 11, Abb.; 61, Nr. 32</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 05011748</lido:objectID>
+                        <lido:objectNote>Künder unseres Jahrhunderts, Recklinghausen 1951<!--encodinganalog = a8334-->, S. 11, Abb.; 61, Nr. 32</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Impressionistes, Paris 1951<!--encodinganalog = a8334-->, Nr. 45, Tafel 34, Abb.</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 02531700</lido:objectID>
+                        <lido:objectNote>Impressionistes, Paris 1951<!--encodinganalog = a8334-->, Nr. 45, Tafel 34, Abb.</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Leymarie, van Gogh, 1951<!--encodinganalog = a8334-->, S. 109</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40026912</lido:objectID>
+                        <lido:objectNote>Leymarie, van Gogh, 1951<!--encodinganalog = a8334-->, S. 109</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Valsecchi, van Gogh, 1952<!--encodinganalog = a8334-->, Abb. 5</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40026913</lido:objectID>
+                        <lido:objectNote>Valsecchi, van Gogh, 1952<!--encodinganalog = a8334-->, Abb. 5</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Verzamelte Brieven van Vincent van Gogh, Amsterdam 1952/54<!--encodinganalog = a8334-->, S. 215, Nr. 488</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40026914</lido:objectID>
+                        <lido:objectNote>Verzamelte Brieven van Vincent van Gogh, Amsterdam 1952/54<!--encodinganalog = a8334-->, S. 215, Nr. 488</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Cassou, Impressionisten und ihre Zeit, 1953<!--encodinganalog = a8334-->, S. 29, Nr. 65; Abb. 65</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40026915</lido:objectID>
+                        <lido:objectNote>Cassou, Impressionisten und ihre Zeit, 1953<!--encodinganalog = a8334-->, S. 29, Nr. 65; Abb. 65</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Espressionismo et Arte tedesca, Torino 1954<!--encodinganalog = a8334-->, S. 27, Nr. I, mit Abb.</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40025375</lido:objectID>
+                        <lido:objectNote>Espressionismo et Arte tedesca, Torino 1954<!--encodinganalog = a8334-->, S. 27, Nr. I, mit Abb.</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Vincent van Gogh, München 1956<!--encodinganalog = a8334-->, Nr. 121, mit Abb.</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40026916</lido:objectID>
+                        <lido:objectNote>Vincent van Gogh, München 1956<!--encodinganalog = a8334-->, Nr. 121, mit Abb.</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Vincent van Gogh, Essen 1957<!--encodinganalog = a8334-->, Nr. 268</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40026917</lido:objectID>
+                        <lido:objectNote>Vincent van Gogh, Essen 1957<!--encodinganalog = a8334-->, Nr. 268</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Köln WRM, Führer, 1957<!--encodinganalog = a8334-->, S. 105, Nr. 1197, Abb. 116</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40022920</lido:objectID>
+                        <lido:objectNote>Köln WRM, Führer, 1957<!--encodinganalog = a8334-->, S. 105, Nr. 1197, Abb. 116</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Rewald, Von van Gogh zu Gauguin, 1957<!--encodinganalog = a8334-->, S. 257, Abb.</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40026918</lido:objectID>
+                        <lido:objectNote>Rewald, Von van Gogh zu Gauguin, 1957<!--encodinganalog = a8334-->, S. 257, Abb.</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Grohn, Vincent van Gogh, 1958<!--encodinganalog = a8334-->, Tafel 20, Abb.</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40026919</lido:objectID>
+                        <lido:objectNote>Grohn, Vincent van Gogh, 1958<!--encodinganalog = a8334-->, Tafel 20, Abb.</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Köln WRM, Verzeichnis, 1959<!--encodinganalog = a8334-->, S. 62, Nr. 1197</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40022928</lido:objectID>
+                        <lido:objectNote>Köln WRM, Verzeichnis, 1959<!--encodinganalog = a8334-->, S. 62, Nr. 1197</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Graf, Buch der großen Maler, 1960<!--encodinganalog = a8334-->, S. 211</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40026920</lido:objectID>
+                        <lido:objectNote>Graf, Buch der großen Maler, 1960<!--encodinganalog = a8334-->, S. 211</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Stelzer, Hauptwerke aus dem Wallraf-Richartz-Museum, 1960<!--encodinganalog = a8334-->, S. 217, Abb.</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40025377</lido:objectID>
+                        <lido:objectNote>Stelzer, Hauptwerke aus dem Wallraf-Richartz-Museum, 1960<!--encodinganalog = a8334-->, S. 217, Abb.</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Feldenkirchen, Moderne Kunst in Köln, 1962<!--encodinganalog = a8334-->, Abb. 2</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40025378</lido:objectID>
+                        <lido:objectNote>Feldenkirchen, Moderne Kunst in Köln, 1962<!--encodinganalog = a8334-->, Abb. 2</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Gelder, Kunstgeschiedenis der Nederlanden, ohne Jahr (um 1962/63?)<!--encodinganalog = a8334-->, zwischen S. 496 und S. 497 Tafel 11, Abb.</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40026921</lido:objectID>
+                        <lido:objectNote>Gelder, Kunstgeschiedenis der Nederlanden, ohne Jahr (um 1962/63?)<!--encodinganalog = a8334-->, zwischen S. 496 und S. 497 Tafel 11, Abb.</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Wegbereiter der modernen Malerei, Hamburg 1963<!--encodinganalog = a8334-->, Nr. 80, Abb. 45</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 05017702</lido:objectID>
+                        <lido:objectNote>Wegbereiter der modernen Malerei, Hamburg 1963<!--encodinganalog = a8334-->, Nr. 80, Abb. 45</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Platte, Wegbereiter der modernen Malerei, 1963<!--encodinganalog = a8334-->, Nr. 5, S. 23, Abb. 5</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40026922</lido:objectID>
+                        <lido:objectNote>Platte, Wegbereiter der modernen Malerei, 1963<!--encodinganalog = a8334-->, Nr. 5, S. 23, Abb. 5</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Bon Voyage Signac, Köln 2021<!--encodinganalog = a8334-->, Kat. Nr. 38; Abb. S. 209</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40027089</lido:objectID>
+                        <lido:objectNote>Bon Voyage Signac, Köln 2021<!--encodinganalog = a8334-->, Kat. Nr. 38; Abb. S. 209</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>van Gogh, Detroit 2022<!--encodinganalog = a8334-->, Plate 22; Abb. S. 190</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40028317</lido:objectID>
+                        <lido:objectNote>van Gogh, Detroit 2022<!--encodinganalog = a8334-->, Plate 22; Abb. S. 190</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Van Gogh´s Cypresses, New York 2023<!--encodinganalog = a8334-->, Abb. S. 29, Fig. 10</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"><!--encodinganalog = a8200-->lit 40028337</lido:objectID>
+                        <lido:objectNote>Van Gogh´s Cypresses, New York 2023<!--encodinganalog = a8334-->, Abb. S. 29, Fig. 10</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+            </lido:relatedWorksWrap>
+         </lido:objectRelationWrap>
+      </lido:descriptiveMetadata>
+      <lido:administrativeMetadata xml:lang="de">
+         <lido:rightsWorkWrap>
+            <lido:rightsWorkSet>
+               <lido:creditLine>Rechte vorbehalten.</lido:creditLine>
+            </lido:rightsWorkSet>
+         </lido:rightsWorkWrap>
+         <lido:recordWrap>
+            <lido:recordID lido:type="http://terminology.lido-schema.org/lido00100"
+                           lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud">obj05010654</lido:recordID>
+            <lido:recordType>
+               <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099">http://terminology.lido-schema.org/lido00141</lido:conceptID>
+               <lido:term>Einzelobjekt (Katalogisierungsebene)</lido:term>
+            </lido:recordType>
+            <!--encodinganalog = a9902-->
+            <lido:recordSource>
+               <lido:legalBodyID lido:type="http://terminology.lido-schema.org/lido00100"
+                                 lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud">ver 20132038</lido:legalBodyID>
+               <lido:legalBodyID lido:type="http://terminology.lido-schema.org/lido00099"
+                                 lido:source="ISIL (ISO 15511)">http://ld.zdb-services.de/resource/organisations/DE-MUS-079214</lido:legalBodyID>
+               <lido:legalBodyID lido:type="http://terminology.lido-schema.org/lido00099"
+                                 lido:source="GND">https://d-nb.info/gnd/10073784-5</lido:legalBodyID>
+               <lido:legalBodyName><!--Wallraf-Richartz-Museum + Fondation Corboud-->
+                  <lido:appellationValue>Wallraf-Richartz-Museum &amp; Fondation Corboud</lido:appellationValue>
+               </lido:legalBodyName>
+            </lido:recordSource>
+            <lido:recordRights><!--encodinganalog = a9902--><!--
+                    rights holder
+                -->
+               <lido:rightsHolder>
+                  <lido:legalBodyID lido:type="http://terminology.lido-schema.org/lido00100"
+                                    lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud">ver 20132038</lido:legalBodyID>
+                  <lido:legalBodyID lido:type="http://terminology.lido-schema.org/lido00099"
+                                    lido:source="ISIL (ISO 15511)">http://ld.zdb-services.de/resource/organisations/DE-MUS-079214</lido:legalBodyID>
+                  <lido:legalBodyID lido:type="http://terminology.lido-schema.org/lido00099"
+                                    lido:source="GND">https://d-nb.info/gnd/10073784-5</lido:legalBodyID>
+                  <lido:legalBodyName><!--Wallraf-Richartz-Museum + Fondation Corboud-->
+                     <lido:appellationValue>Wallraf-Richartz-Museum &amp; Fondation Corboud</lido:appellationValue>
+                  </lido:legalBodyName>
+               </lido:rightsHolder>
+            </lido:recordRights>
+            <lido:recordInfoSet>
+               <lido:recordInfoLink>https://www.kulturelles-erbe-koeln.de/documents/obj/05010654</lido:recordInfoLink>
+               <!--05010654-->
+               <lido:recordMetadataDate lido:type="created">2016-03-22T18:50:33Z</lido:recordMetadataDate>
+               <lido:recordMetadataDate lido:type="updated">2023-11-07T07:44:45Z</lido:recordMetadataDate>
+            </lido:recordInfoSet>
+         </lido:recordWrap>
+         <lido:resourceWrap><!--encodinganalog = a8450--><!--Skipped  due to legal rights issues. Image must not be published due to rights restrictions.--><!--encodinganalog = a8450--><!--Skipped rba_c015880 due to legal rights issues. Image must not be published due to rights restrictions.--><!--encodinganalog = a8450--><!--Skipped rba_d037772 due to legal rights issues. Image must not be published due to rights restrictions.--><!--encodinganalog = a8450--><!--Skipped rba_d053106 due to legal rights issues. Image must not be published due to rights restrictions.--></lido:resourceWrap>
+      </lido:administrativeMetadata>
+   </lido:lido>
+   <lido:lido><!--encodinganalog = obj--><!--encodinganalog = a5000-->
+      <lido:lidoRecID lido:type="http://terminology.lido-schema.org/lido00100"
+                      lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"
+                      lido:encodinganalog="a5000">DE-Mb112/lido/obj/05017310</lido:lidoRecID>
+      <lido:category>
+         <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099">http://cidoc-crm.org/cidoc-crm/7.1.1/E22_Human-Made_Object</lido:conceptID>
+         <lido:term xml:lang="de" lido:pref="http://terminology.lido-schema.org/lido00169">Künstlicher Gegenstand</lido:term>
+         <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00169">Human-Made Object</lido:term>
+      </lido:category>
+      <lido:descriptiveMetadata xml:lang="de">
+         <lido:objectClassificationWrap>
+            <lido:objectWorkTypeWrap><!--encodinganalog = a5230-->
+               <lido:objectWorkType lido:type="http://terminology.lido-schema.org/lido00789">
+                  <lido:term lido:encodinganalog="a5230"
+                             xml:lang="de"
+                             lido:pref="http://terminology.lido-schema.org/lido00169">Bild</lido:term>
+               </lido:objectWorkType>
+            </lido:objectWorkTypeWrap>
+            <lido:classificationWrap/>
+         </lido:objectClassificationWrap>
+         <lido:objectIdentificationWrap>
+            <lido:titleWrap><!--encodinganalog = a5200-->
+               <lido:titleSet>
+                  <lido:appellationValue lido:encodinganalog="a5200"
+                                         lido:pref="http://terminology.lido-schema.org/lido00169">Bauernkate in Nuenen</lido:appellationValue>
+               </lido:titleSet>
+            </lido:titleWrap>
+            <lido:repositoryWrap><!--encodinganalog = aob28-->
+               <lido:repositorySet lido:type="http://terminology.lido-schema.org/lido01017">
+                  <lido:repositoryName>
+                     <lido:legalBodyID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud">ver 20132038</lido:legalBodyID>
+                     <lido:legalBodyID lido:type="http://terminology.lido-schema.org/lido00099"
+                                       lido:source="ISIL (ISO 15511)">http://ld.zdb-services.de/resource/organisations/DE-MUS-079214</lido:legalBodyID>
+                     <lido:legalBodyID lido:type="http://terminology.lido-schema.org/lido00099"
+                                       lido:source="GND">http://d-nb.info/gnd/10073784-5</lido:legalBodyID>
+                     <lido:legalBodyName>
+                        <lido:appellationValue lido:pref="http://terminology.lido-schema.org/lido00169">Wallraf-Richartz-Museum &amp; Fondation Corboud – Gemäldesammlung</lido:appellationValue>
+                     </lido:legalBodyName>
+                  </lido:repositoryName>
+                  <!--encodinganalog = a2950-->
+                  <lido:workID lido:type="http://terminology.lido-schema.org/lido00113"
+                               lido:encodinganalog="a2950">Dep. 0665 FC</lido:workID>
+                  <lido:repositoryLocation><!--encodinganalog = a2864-->
+                     <lido:partOfPlace lido:politicalEntity="Ort">
+                        <lido:namePlaceSet>
+                           <lido:appellationValue lido:encodinganalog="a2864">Köln</lido:appellationValue>
+                        </lido:namePlaceSet>
+                     </lido:partOfPlace>
+                  </lido:repositoryLocation>
+               </lido:repositorySet>
+            </lido:repositoryWrap>
+            <lido:objectDescriptionWrap><!--encodinganalog = a599a-->
+               <lido:objectDescriptionSet lido:type="Erwerbungshinweis"><!--encodinganalog = a599e-->
+                  <lido:descriptiveNoteValue lido:encodinganalog="a599e">Das Werk ist eine Leihgabe aus der Sammlung Corboud, Blonay (Schweiz)</lido:descriptiveNoteValue>
+               </lido:objectDescriptionSet>
+               <!--encodinganalog = a9904-->
+               <lido:objectDescriptionSet lido:type="Bearbeiter Datensatz">
+                  <lido:descriptiveNoteValue lido:encodinganalog="a9904">Kwastek, Katja</lido:descriptiveNoteValue>
+               </lido:objectDescriptionSet>
+            </lido:objectDescriptionWrap>
+            <lido:objectMeasurementsWrap><!--encodinganalog = a5360-->
+               <lido:objectMeasurementsSet>
+                  <lido:displayObjectMeasurements lido:encodinganalog="a5360">Höhe und Breite: 32 x 46</lido:displayObjectMeasurements>
+                  <lido:objectMeasurements>
+                     <lido:measurementsSet>
+                        <lido:measurementType>Höhe und Breite</lido:measurementType>
+                        <lido:measurementUnit>32 x 46</lido:measurementUnit>
+                        <lido:measurementValue>32 x 46</lido:measurementValue>
+                     </lido:measurementsSet>
+                     <lido:extentMeasurements>32 x 46</lido:extentMeasurements>
+                  </lido:objectMeasurements>
+               </lido:objectMeasurementsSet>
+            </lido:objectMeasurementsWrap>
+         </lido:objectIdentificationWrap>
+         <lido:eventWrap>
+            <lido:eventSet>
+               <lido:event>
+                  <lido:eventType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="http://terminology.lido-schema.org/eventType">http://terminology.lido-schema.org/lido00225</lido:conceptID>
+                     <lido:term xml:lang="de" lido:pref="http://terminology.lido-schema.org/lido00169">Ausstellung (Aktivitäten)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00169">exhibition (Activity)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00170">exhibition</lido:term>
+                  </lido:eventType>
+                  <lido:eventName>
+                     <lido:appellationValue>Miracle de la couleur, Köln 2001</lido:appellationValue>
+                  </lido:eventName>
+               </lido:event>
+            </lido:eventSet>
+            <lido:eventSet>
+               <lido:event>
+                  <lido:eventType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="http://terminology.lido-schema.org/eventType">http://terminology.lido-schema.org/lido00225</lido:conceptID>
+                     <lido:term xml:lang="de" lido:pref="http://terminology.lido-schema.org/lido00169">Ausstellung (Aktivitäten)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00169">exhibition (Activity)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00170">exhibition</lido:term>
+                  </lido:eventType>
+                  <lido:eventName>
+                     <lido:appellationValue>Vincent, Martigny 2000</lido:appellationValue>
+                  </lido:eventName>
+               </lido:event>
+            </lido:eventSet>
+            <lido:eventSet>
+               <lido:event>
+                  <lido:eventType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="http://terminology.lido-schema.org/eventType">http://terminology.lido-schema.org/lido00225</lido:conceptID>
+                     <lido:term xml:lang="de" lido:pref="http://terminology.lido-schema.org/lido00169">Ausstellung (Aktivitäten)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00169">exhibition (Activity)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00170">exhibition</lido:term>
+                  </lido:eventType>
+                  <lido:eventName>
+                     <lido:appellationValue>Cézanne, Seoul, 2015-2016</lido:appellationValue>
+                  </lido:eventName>
+               </lido:event>
+            </lido:eventSet>
+            <lido:eventSet>
+               <lido:event>
+                  <lido:eventType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="http://terminology.lido-schema.org/eventType">http://terminology.lido-schema.org/lido00225</lido:conceptID>
+                     <lido:term xml:lang="de" lido:pref="http://terminology.lido-schema.org/lido00169">Ausstellung (Aktivitäten)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00169">exhibition (Activity)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00170">exhibition</lido:term>
+                  </lido:eventType>
+                  <lido:eventName>
+                     <lido:appellationValue>Van Gogh, Mons, 2015</lido:appellationValue>
+                  </lido:eventName>
+               </lido:event>
+            </lido:eventSet>
+            <lido:eventSet>
+               <lido:event>
+                  <lido:eventType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="http://terminology.lido-schema.org/eventType">http://terminology.lido-schema.org/lido00225</lido:conceptID>
+                     <lido:term xml:lang="de" lido:pref="http://terminology.lido-schema.org/lido00169">Ausstellung (Aktivitäten)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00169">exhibition (Activity)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00170">exhibition</lido:term>
+                  </lido:eventType>
+                  <lido:eventName>
+                     <lido:appellationValue>Cézanne, Fukuoka, 2016</lido:appellationValue>
+                  </lido:eventName>
+               </lido:event>
+            </lido:eventSet>
+            <lido:eventSet>
+               <lido:event>
+                  <lido:eventType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="http://terminology.lido-schema.org/eventType">http://terminology.lido-schema.org/lido00225</lido:conceptID>
+                     <lido:term xml:lang="de" lido:pref="http://terminology.lido-schema.org/lido00169">Ausstellung (Aktivitäten)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00169">exhibition (Activity)</lido:term>
+                     <lido:term xml:lang="en" lido:pref="http://terminology.lido-schema.org/lido00170">exhibition</lido:term>
+                  </lido:eventType>
+                  <lido:eventName>
+                     <lido:appellationValue>Cézanne, Okinawa, 2016</lido:appellationValue>
+                  </lido:eventName>
+               </lido:event>
+            </lido:eventSet>
+            <lido:eventSet>
+               <lido:event>
+                  <lido:eventType><!--MIDAS-eventType literal was: Herstellung-->
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="http://terminology.lido-schema.org/eventType">http://terminology.lido-schema.org/lido00007</lido:conceptID>
+                     <lido:term xml:lang="de">Herstellung</lido:term>
+                     <lido:term xml:lang="en">Production</lido:term>
+                     <lido:term xml:lang="de"
+                                lido:addedSearchTerm="yes"
+                                lido:pref="http://terminology.lido-schema.org/lido00170">Herstellung</lido:term>
+                  </lido:eventType>
+                  <!--encodinganalog = aob30-->
+                  <lido:eventActor>
+                     <lido:actorInRole>
+                        <lido:actor lido:type="http://terminology.lido-schema.org/lido00163"><!--encodinganalog = a3100-->
+                           <lido:nameActorSet>
+                              <lido:appellationValue lido:pref="http://terminology.lido-schema.org/lido00169">Gogh, Vincent van</lido:appellationValue>
+                           </lido:nameActorSet>
+                        </lido:actor>
+                        <!--encodinganalog = a3475-->
+                        <lido:roleActor>
+                           <lido:term>Maler</lido:term>
+                        </lido:roleActor>
+                     </lido:actorInRole>
+                  </lido:eventActor>
+                  <!--encodinganalog = a5060-->
+                  <lido:eventDate><!--encodinganalog = a5064-->
+                     <lido:displayDate>1885</lido:displayDate>
+                     <lido:date><!--encodinganalog = a5071-->
+                        <lido:earliestDate>1885</lido:earliestDate>
+                        <!--encodinganalog = a5077-->
+                        <lido:latestDate>1885</lido:latestDate>
+                     </lido:date>
+                  </lido:eventDate>
+                  <!--encodinganalog = a5260-->
+                  <lido:eventMaterialsTech>
+                     <lido:materialsTech>
+                        <lido:termMaterialsTech lido:type="http://terminology.lido-schema.org/lido00132">
+                           <lido:term>Öl &amp; Leinwand</lido:term>
+                        </lido:termMaterialsTech>
+                     </lido:materialsTech>
+                  </lido:eventMaterialsTech>
+                  <!--encodinganalog = a5060-->
+               </lido:event>
+            </lido:eventSet>
+         </lido:eventWrap>
+         <lido:objectRelationWrap>
+            <lido:subjectWrap><!--encodinganalog = a5500-->
+               <lido:subjectSet>
+                  <lido:subject lido:type="http://terminology.lido-schema.org/lido00745">
+                     <lido:subjectConcept>
+                        <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                        lido:source="http://iconclass.org">http://iconclass.org/25%20I%203</lido:conceptID>
+                        <lido:term lido:pref="http://terminology.lido-schema.org/lido00169">Bauernhof oder abgelegenes Haus in einer Landschaft</lido:term>
+                        <lido:term lido:pref="http://terminology.lido-schema.org/lido00170"
+                                   lido:addedSearchTerm="yes">25 I 3</lido:term>
+                     </lido:subjectConcept>
+                  </lido:subject>
+               </lido:subjectSet>
+               <!--encodinganalog = a5560-->
+               <lido:subjectSet>
+                  <lido:subject lido:type="http://terminology.lido-schema.org/lido00745">
+                     <lido:subjectConcept>
+                        <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                        lido:source="http://iconclass.org">http://iconclass.org/61 E (NUENEN)</lido:conceptID>
+                        <lido:term lido:pref="http://terminology.lido-schema.org/lido00169"/>
+                        <lido:term lido:pref="http://terminology.lido-schema.org/lido00170"
+                                   lido:addedSearchTerm="yes">61 E (NUENEN)</lido:term>
+                     </lido:subjectConcept>
+                  </lido:subject>
+               </lido:subjectSet>
+            </lido:subjectWrap>
+            <lido:relatedWorksWrap><!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Miracle de la couleur, Köln 2001<!--encodinganalog = a8334-->, Kat. 50, Abb. S. 135</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"/>
+                        <lido:objectNote>Miracle de la couleur, Köln 2001<!--encodinganalog = a8334-->, Kat. 50, Abb. S. 135</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+               <!--encodinganalog = a8330-->
+               <lido:relatedWorkSet>
+                  <lido:relatedWork>
+                     <lido:displayObject>Meister des Impressionismus, WRM, Köln 2008<!--encodinganalog = a8334-->, Abb. S. 162</lido:displayObject>
+                     <lido:object>
+                        <lido:objectID lido:type="http://terminology.lido-schema.org/lido00100"
+                                       lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud"/>
+                        <lido:objectNote>Meister des Impressionismus, WRM, Köln 2008<!--encodinganalog = a8334-->, Abb. S. 162</lido:objectNote>
+                     </lido:object>
+                  </lido:relatedWork>
+                  <lido:relatedWorkRelType>
+                     <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099"
+                                     lido:source="LIDO">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+                     <lido:term>dokumentiert in</lido:term>
+                  </lido:relatedWorkRelType>
+               </lido:relatedWorkSet>
+            </lido:relatedWorksWrap>
+         </lido:objectRelationWrap>
+      </lido:descriptiveMetadata>
+      <lido:administrativeMetadata xml:lang="de">
+         <lido:rightsWorkWrap>
+            <lido:rightsWorkSet>
+               <lido:creditLine>Rechte vorbehalten.</lido:creditLine>
+            </lido:rightsWorkSet>
+         </lido:rightsWorkWrap>
+         <lido:recordWrap>
+            <lido:recordID lido:type="http://terminology.lido-schema.org/lido00100"
+                           lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud">obj05017310</lido:recordID>
+            <lido:recordType>
+               <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099">http://terminology.lido-schema.org/lido00141</lido:conceptID>
+               <lido:term>Einzelobjekt (Katalogisierungsebene)</lido:term>
+            </lido:recordType>
+            <!--encodinganalog = a9902-->
+            <lido:recordSource>
+               <lido:legalBodyID lido:type="http://terminology.lido-schema.org/lido00100"
+                                 lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud">ver 20132038</lido:legalBodyID>
+               <lido:legalBodyID lido:type="http://terminology.lido-schema.org/lido00099"
+                                 lido:source="ISIL (ISO 15511)">http://ld.zdb-services.de/resource/organisations/DE-MUS-079214</lido:legalBodyID>
+               <lido:legalBodyID lido:type="http://terminology.lido-schema.org/lido00099"
+                                 lido:source="GND">https://d-nb.info/gnd/10073784-5</lido:legalBodyID>
+               <lido:legalBodyName><!--Wallraf-Richartz-Museum &amp; Fondation Corboud-->
+                  <lido:appellationValue>Wallraf-Richartz-Museum &amp; Fondation Corboud</lido:appellationValue>
+               </lido:legalBodyName>
+            </lido:recordSource>
+            <lido:recordRights><!--encodinganalog = a9902--><!--
+                    rights holder
+                -->
+               <lido:rightsHolder>
+                  <lido:legalBodyID lido:type="http://terminology.lido-schema.org/lido00100"
+                                    lido:source="Wallraf-Richartz-Museum &amp; Fondation-Corboud">ver 20132038</lido:legalBodyID>
+                  <lido:legalBodyID lido:type="http://terminology.lido-schema.org/lido00099"
+                                    lido:source="ISIL (ISO 15511)">http://ld.zdb-services.de/resource/organisations/DE-MUS-079214</lido:legalBodyID>
+                  <lido:legalBodyID lido:type="http://terminology.lido-schema.org/lido00099"
+                                    lido:source="GND">https://d-nb.info/gnd/10073784-5</lido:legalBodyID>
+                  <lido:legalBodyName><!--Wallraf-Richartz-Museum &amp; Fondation Corboud-->
+                     <lido:appellationValue>Wallraf-Richartz-Museum &amp; Fondation Corboud</lido:appellationValue>
+                  </lido:legalBodyName>
+               </lido:rightsHolder>
+            </lido:recordRights>
+            <lido:recordInfoSet>
+               <lido:recordInfoLink>https://www.kulturelles-erbe-koeln.de/documents/obj/05017310</lido:recordInfoLink>
+               <!--05017310-->
+               <lido:recordMetadataDate lido:type="created">2016-03-22T16:50:47Z</lido:recordMetadataDate>
+               <lido:recordMetadataDate lido:type="updated">2023-06-06T08:58:00Z</lido:recordMetadataDate>
+            </lido:recordInfoSet>
+         </lido:recordWrap>
+         <lido:resourceWrap><!--encodinganalog = a8450--><!--Skipped  due to legal rights issues. Image must not be published due to rights restrictions.--><!--encodinganalog = a8450--><!--Skipped rba_c015880 due to legal rights issues. Image must not be published due to rights restrictions.--><!--encodinganalog = a8450--><!--Skipped rba_d037772 due to legal rights issues. Image must not be published due to rights restrictions.--><!--encodinganalog = a8450--><!--Skipped rba_d053106 due to legal rights issues. Image must not be published due to rights restrictions.--></lido:resourceWrap>
+      </lido:administrativeMetadata>
+   </lido:lido>
+</lido:lidoWrap>
